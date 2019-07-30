@@ -1,0 +1,235 @@
+.Title{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.subtitle{
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
+.mission{
+  justify-content: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.english_center_button {
+background-color: green;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+.english_center_button:hover {background-color: #3e8e41}
+.english_center_button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.health_care_button {
+background-color: green;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+.health_care_button:hover {background-color: #3e8e41}
+.health_care_button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.citizenship_button {
+background-color: green;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+.citizenship_button:hover {background-color: #3e8e41}
+.citizenship_button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.bank_button {
+background-color: green;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+.bank_button:hover {background-color: #3e8e41}
+.bank_button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.about_the_creators_button {
+background-color: green;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+.about_the_creators_button:hover {background-color: #3e8e41}
+.about_the_creators_button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+.home_button {
+background-color: green;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+.home_button:hover {background-color: #3e8e41}
+.home_button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.description{
+  justify-content: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+
+.foodpantry_button {
+background-color: green;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+.foodpantry_button:hover {background-color: #3e8e41}
+.foodpantry_button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.clothes_button {
+background-color: green;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+.clothes_button:hover {background-color: #3e8e41}
+.clothes_button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+.contact_button {
+  background-color: white;
+  border: white;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Tahoma, Geneva, sans-serif;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px black;;
+}
+.contact_button:hover {background-color: #e0a3a3}
+.contact_button:active {
+  background-color: #e0a3a3;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}

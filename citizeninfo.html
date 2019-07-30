@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Citizenship</title>
+    <link href= "citizen.css" rel="stylesheet">
+    <link rel = "icon" href = "logo1crop.png" type = "image/x-icon">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <center><div class = "Title"><center>
+      <u> Second Chances </u>
+      <div>
+        <img src="logo1crop.png" id="myLogo" width="100" height="100">
+      </div>
+      <div>
+      Citizenship Info
+    </div>
+    </div>
+
+
+    <center><button class = "home_button" onclick = "Functionhome()"> Home </button>
+    <script>
+    function Functionhome(){
+      location.replace("app.html")
+    }
+    </script>
+    <button class="citizenship_button" onclick = "Functioncitizen()">Citizenship Info</button>
+      <script>
+      function Functioncitizen(){
+        location.replace("citizeninfo.html")
+      }
+      </script>
+    <button class="english_center_button" onclick ="Functioneng()">English Centers</button>
+    <script>
+    function Functioneng(){
+      location.replace("englishcenters.html")
+    }
+    </script>
+    <button class="bank_button" onclick = "Functionbank()">Food and Clothing Banks</button>
+    <script>
+    function Functionbank(){
+      location.replace("foodorclothes.html")
+    }
+    </script>
+    <button class="health_care_button" onclick = "Functionhc()">Health Care</button>
+    <script>
+    function Functionhc(){
+      location.replace("health.html")
+    }
+    </script>
+
+    <button class="take_action_button" onclick = "Functionaction()">Take Action</button>
+      <script>
+      function Functionaction(){
+        location.replace("takeaction.html")
+      }
+      </script>
+
+    <button class="about_the_creators_button" onclick = "Functionabout()">About the Creators</button>
+    <script>
+    function Functionabout(){
+      location.replace("about.html")
+    }
+    </script>
+
+    <button class="take_action_button" onclick = "Functionaction()">Take Action</button>
+      <script>
+      function Functioncitizen(){
+        location.replace("takeaction.html")
+      }
+      </script>
+
+    <button class = "contact_button" onclick = "Functioncontact()"> Contact Us </button>
+    <script>
+      function Functioncontact(){
+        location.replace("contact.html")
+      }
+    </script>
+    </center>
+    <strong><center><h2> Please choose what page you want to go to </h2></center></strong>
+  </div>
+    <div class = "buttons">
+      <center>
+    <button  class= "knowrights_button" onclick="Function()">Know Your Rights</button>
+    <script>
+    function Function() {
+    location.replace("rights.html")
+    }
+    </script>
+    <button  class= "StudyGuide_button" onclick="Study()">Citizenship Study Guides</button>
+    <script>
+    function Study() {
+    location.replace("study.html")
+    }
+    </script>
+</center>
+</div>
+
+<br><img src="img.gif" id="myLogo" width="700" height="450" border="8"></br>
+© Parker Molly @ upworthy.com
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+
+      </body>
+    </html>
